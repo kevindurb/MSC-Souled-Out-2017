@@ -1,0 +1,1739 @@
+<?xml version="1.0"?>
+<MidiDev xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <friendlyName>Launchpad</friendlyName>
+  <controls>
+    <MidiDevControl>
+      <controlName>01x01</controlName>
+      <controlType>Button</controlType>
+      <events />
+      <controlMidiType>0</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>104</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>B0 68 2c</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>01x02</controlName>
+      <controlType>Button</controlType>
+      <events />
+      <controlMidiType>0</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>105</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>B0 69 1c</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>01x03</controlName>
+      <controlType>Button</controlType>
+      <events />
+      <controlMidiType>0</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>106</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>B0 6A 1c</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>01x04</controlName>
+      <controlType>Button</controlType>
+      <events />
+      <controlMidiType>0</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>107</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>B0 6B 1c</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>01x05</controlName>
+      <controlType>Button</controlType>
+      <events />
+      <controlMidiType>0</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>108</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>B0 6C 1c</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>01x06</controlName>
+      <controlType>Button</controlType>
+      <events />
+      <controlMidiType>0</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>109</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>B0 6D 1c</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>01x07</controlName>
+      <controlType>Button</controlType>
+      <events />
+      <controlMidiType>0</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>110</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>B0 6E 1c</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>01x08</controlName>
+      <controlType>Button</controlType>
+      <events />
+      <controlMidiType>0</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>111</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>B0 6F 1c</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>02x01</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>1</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>0</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 00 02</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>02x02</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>2</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>1</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 01 0d</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>02x03</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>3</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>2</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 02 02</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>02x04</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>4</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>3</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 03 0d</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>02x05</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>5</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>4</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 04 02</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>02x06</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>6</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>5</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 05 0d</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>02x07</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>7</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>6</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 06 02</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>02x08</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>8</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>7</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 07 0d</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>02x09</controlName>
+      <controlType>Button</controlType>
+      <events />
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>8</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 08 0c</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>03x01</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>11</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>16</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 10 02</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>03x02</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>12</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>17</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 11 0d</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>03x03</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>13</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>18</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 12 02</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>03x04</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>14</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>19</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 13 0d</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>03x05</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>15</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>20</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 14 02</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>03x06</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>16</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>21</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 15 0d</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>03x07</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>17</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>22</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 16 02</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>03x08</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>18</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>23</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 17 0d</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>03x09</controlName>
+      <controlType>Button</controlType>
+      <events />
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>24</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 18 0c</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>04x01</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>21</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>32</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 20 02</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>04x02</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>22</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>33</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 21 0d</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>04x03</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>23</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>34</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 22 02</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>04x04</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>24</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>35</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 23 0d</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>04x05</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>25</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>36</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 24 02</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>04x06</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>26</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>37</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 25 0d</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>04x07</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>27</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>38</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 26 02</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>04x08</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>28</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>39</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 27 0d</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>04x09</controlName>
+      <controlType>Button</controlType>
+      <events />
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>40</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 28 0c</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>05x01</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>31</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>48</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 30 2C</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>05x02</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>32</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>49</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 31 1C</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>05x03</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>33</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>50</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 32 2C</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>05x04</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>34</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>51</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 33 1C</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>05x05</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>35</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>52</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 34 2C</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>05x06</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>36</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>53</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 35 1C</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>05x07</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>37</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>54</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 36 2C</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>05x08</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>38</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>55</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 37 1C</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>05x09</controlName>
+      <controlType>Button</controlType>
+      <events />
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>56</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 38 0c</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>06x01</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>41</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>64</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 40 2C</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>06x02</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>42</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>65</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 41 1c</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>06x03</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>43</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>66</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 42 2C</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>06x04</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>44</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>67</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 43 1c</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>06x05</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>45</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>68</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 44 2C</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>06x06</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>46</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>69</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 45 1c</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>06x07</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>47</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>70</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 46 2C</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>06x08</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>48</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>71</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 47 1c</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>06x09</controlName>
+      <controlType>Button</controlType>
+      <events />
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>72</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>B0 48 1c</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>07x01</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>51</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>80</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 50 2C</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>07x02</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>52</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>81</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 51 1c</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>07x03</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>53</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>82</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 52 2C</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>07x04</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>54</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>83</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 53 1c</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>07x05</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>55</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>84</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 54 2C</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>07x06</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>56</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>85</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 55 1c</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>07x07</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>57</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>86</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 56 2C</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>07x08</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>58</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>87</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 57 1c</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>07x09</controlName>
+      <controlType>Button</controlType>
+      <events />
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>88</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 58 2C</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>08x01</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>61</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>96</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 60 2C</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>08x02</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>62</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>97</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 61 1c</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>08x03</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>63</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>98</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 62 2C</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>08x04</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>64</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>99</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 63 1C</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>08x05</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>65</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>100</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 64 2c</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>08x06</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>66</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>101</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 65 1C</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>08x07</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>67</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>102</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 66 2c</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>08x08</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>68</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>103</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 67 1C</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>08x09</controlName>
+      <controlType>Button</controlType>
+      <events />
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>104</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 68 1c</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>09x01</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>71</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>112</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 70 1F</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>09x02</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>72</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>113</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 71 2F</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>09x03</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>73</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>114</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 72 1F</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>09x04</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>74</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>115</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 73 2F</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>09x05</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>75</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>116</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 74 1F</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>09x06</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>76</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>117</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 75 2F</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>09x07</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>77</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>118</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 76 1F</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>09x08</controlName>
+      <controlType>Button</controlType>
+      <events>
+        <OnButtonDown>
+          <fName>PlaybackButtonAction</fName>
+          <fFader>false</fFader>
+          <fParameters type="MPCTools.Settings.Parameters.PlaybackButtonActionParameters, MPCTools.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <PlaybackButtonActionParameters>
+              <BankNumber>1</BankNumber>
+              <PlaybackNumber>78</PlaybackNumber>
+              <Action>Go</Action>
+            </PlaybackButtonActionParameters>
+          </fParameters>
+        </OnButtonDown>
+      </events>
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>119</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 77 2F</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+    <MidiDevControl>
+      <controlName>09x09</controlName>
+      <controlType>Button</controlType>
+      <events />
+      <controlMidiType>1</controlMidiType>
+      <controlMidiChannel>0</controlMidiChannel>
+      <controlMidiData1>120</controlMidiData1>
+      <customFeedback>false</customFeedback>
+      <customFeedbackInit>90 78 0F</customFeedbackInit>
+      <customFeedbackOn />
+      <customFeedbackOff />
+    </MidiDevControl>
+  </controls>
+  <inputDeviceName>None</inputDeviceName>
+  <outputDeviceName>None</outputDeviceName>
+  <deviceSpace>0</deviceSpace>
+  <defaultBank>1</defaultBank>
+  <motorizedFaders>false</motorizedFaders>
+</MidiDev>
